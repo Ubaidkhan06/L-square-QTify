@@ -1,0 +1,25 @@
+.searchBar {
+    content: 'icon';
+    width: 568px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #121212;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.inputIcons i {
+    position: absolute;
+}
+
+.inputIcons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
