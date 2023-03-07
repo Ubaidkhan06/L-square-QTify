@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './SearchBar.module.css'
 
-const SearchBar = () => {
+const SearchBar = ({ placeholder }) => {
   return (
     <>
     <div className={styles.inputIcons}>
-        <input className={styles.searchBar} type="text" placeholder='Search a song of your choice' />
-        <div></div>
+        <input className={styles.searchBar} type="text" placeholder={placeholder} />
+        <button className={styles.searchButton}>&#128270;</button>
     </div>
     </>
   )

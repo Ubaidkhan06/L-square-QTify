@@ -10,16 +10,10 @@
 
 }
 
-.inputIcons i {
-    position: absolute;
-}
-
-.inputIcons {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.icon {
-    padding: 10px;
-    min-width: 40px;
+.searchButton {
+    border: 1px solid #121212;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    background-color: antiquewhite;
 }
