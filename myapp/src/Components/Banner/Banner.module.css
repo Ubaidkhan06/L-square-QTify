@@ -1,0 +1,14 @@
+.banner{
+    background-color: var(--color-black);
+    display: flex;
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+    
+}
+
+.headphone{
+    height: 212px;
+    width: 212px;
+}
