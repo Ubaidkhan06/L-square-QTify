@@ -1,13 +1,2 @@
-.main{
-    background-color: var(--color-black);
-    color: var(--color-white);
-    padding: 50px;
-    display: flex;
-    gap: 26px;
-    flex-wrap: wrap;
-    margin: 0% 2%;
-    row-gap: 50px;
-}
-
 
 
