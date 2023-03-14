@@ -1,0 +1,35 @@
+.card{
+    width: 200px;
+    height: 230px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    justify-content: start;
+    gap: 10px;
+
+}
+
+.img{
+    height: 170px;
+    border-radius: 8px 8px 0px 0px;
+    object-fit: cover;
+}
+
+.follows{
+    margin-left: 10px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 15px;
+    height: max-content;
+    font-weight: 200;
+    width: max-content;
+    padding: 5px 10px;
+}
+
+.title{
+    font-size: 14px;
+    padding: 10px;
+    text-align: start;
+    font-weight: 400;
+}
